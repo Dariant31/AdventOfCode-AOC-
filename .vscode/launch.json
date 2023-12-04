@@ -1,0 +1,125 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+          "name": "Day1-Part1",
+          "type": "node",
+          "request": "launch",
+          "program": "${workspaceFolder}/dist/2023/day1/part-1.js",
+          "preLaunchTask": "tsc: build - tsconfig.json",
+          "outFiles": [
+              "${workspaceFolder}/dist/**/*.js"
+          ],
+          "sourceMaps": true,
+          "smartStep": true,
+          "skipFiles": [
+              "<node_internals>/**"
+          ],
+      },
+      {
+          "name": "Day1-Part2",
+          "type": "node",
+          "request": "launch",
+          "program": "${workspaceFolder}/dist/2023/day1/part-2.js",
+          "preLaunchTask": "tsc: build - tsconfig.json",
+          "outFiles": [
+              "${workspaceFolder}/dist/**/*.js"
+          ],
+          "sourceMaps": true,
+          "smartStep": true,
+          "skipFiles": [
+              "<node_internals>/**"
+          ],
+      },
+      {
+          "name": "Day2-Part1",
+          "type": "node",
+          "request": "launch",
+          "program": "${workspaceFolder}/dist/2023/day2/part-1.js",
+          "preLaunchTask": "tsc: build - tsconfig.json",
+          "outFiles": [
+              "${workspaceFolder}/dist/**/*.js"
+          ],
+          "sourceMaps": true,
+          "smartStep": true,
+          "skipFiles": [
+              "<node_internals>/**"
+          ],
+      },
+      {
+          "name": "Day2-Part2",
+          "type": "node",
+          "request": "launch",
+          "program": "${workspaceFolder}/dist/2023/day2/part-2.js",
+          "preLaunchTask": "tsc: build - tsconfig.json",
+          "outFiles": [
+              "${workspaceFolder}/dist/**/*.js"
+          ],
+          "sourceMaps": true,
+          "smartStep": true,
+          "skipFiles": [
+              "<node_internals>/**"
+          ],
+      },
+      {
+          "name": "Day3-Part1",
+          "type": "node",
+          "request": "launch",
+          "program": "${workspaceFolder}/dist/2023/day3/part-1.js",
+          "preLaunchTask": "tsc: build - tsconfig.json",
+          "outFiles": [
+              "${workspaceFolder}/dist/**/*.js"
+          ],
+          "sourceMaps": true,
+          "smartStep": true,
+          "skipFiles": [
+              "<node_internals>/**"
+          ],
+      },
+      {
+          "name": "Day3-Part2",
+          "type": "node",
+          "request": "launch",
+          "program": "${workspaceFolder}/dist/2023/day3/part-2.js",
+          "preLaunchTask": "tsc: build - tsconfig.json",
+          "outFiles": [
+              "${workspaceFolder}/dist/**/*.js"
+          ],
+          "sourceMaps": true,
+          "smartStep": true,
+          "skipFiles": [
+              "<node_internals>/**"
+          ],
+      },
+      {
+          "name": "Day4-Part1",
+          "type": "node",
+          "request": "launch",
+          "program": "${workspaceFolder}/dist/2023/day4/part-1.js",
+          "preLaunchTask": "tsc: build - tsconfig.json",
+          "outFiles": [
+              "${workspaceFolder}/dist/**/*.js"
+          ],
+          "sourceMaps": true,
+          "smartStep": true,
+          "skipFiles": [
+              "<node_internals>/**"
+          ],
+      },
+      {
+          "name": "Day4-Part2",
+          "type": "node",
+          "request": "launch",
+          "program": "${workspaceFolder}/dist/2023/day4/part-2.js",
+          "preLaunchTask": "tsc: build - tsconfig.json",
+          "outFiles": [
+              "${workspaceFolder}/dist/**/*.js"
+          ],
+          "sourceMaps": true,
+          "smartStep": true,
+          "skipFiles": [
+              "<node_internals>/**"
+          ],
+      }
+    ]
+  }
